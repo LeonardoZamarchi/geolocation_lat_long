@@ -2,7 +2,7 @@ import glob, os
 import json
 import pandas as pd
 
-json_dir = 'C:/Users/leonardo_zamarchi/OneDrive - Sicredi/Documents/Leonardo/Scripts/python/Dionatan/CNPJs/CNPJ_all'
+json_dir = 'path'
 json_pattern = os.path.join(json_dir, '*.json')
 file_list = glob.glob(json_pattern)
 data = []
