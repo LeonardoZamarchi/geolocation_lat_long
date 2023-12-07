@@ -34,7 +34,6 @@ def consultaReceita():
 
 
 #consultaReceita()
-
 def geraCsv(filename):
     df = pd.read_excel(filename, sheet_name=None)
     for key, value in df.items():
@@ -68,4 +67,4 @@ def valida_base_cnpj(filename):
                
 
 
-valida_base_cnpj('C:/Users/leonardo_zamarchi/Desktop/cnpj_inap.csv')
+valida_base_cnpj('cnpj_inap.csv')
